@@ -8,7 +8,7 @@
 <meta name="description" content="Wypożyczalnia samochodów w Ełku: od Citroena C1 po <span style="white-space:nowrap">9-osobowe</span> busy i auta premium. Podstawienie pod dom i na lotniska, auto zastępcze z OC sprawcy, auto do ślubu. Tel. 500 044 663.">
 <meta name="theme-color" content="#fe5e00">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-<link rel="preload" as="image" href="img/hero-1024.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w" imagesizes="250vw" media="(max-width:899px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1024.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w" imagesizes="160vw" media="(max-width:899px)" fetchpriority="high">
 <link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-1920.webp 1920w" imagesizes="100vw" media="(min-width:900px)" fetchpriority="high">
 <link rel="preload" as="font" type="font/woff2" href="fonts/saira-rdzen.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="fonts/inter-rdzen.woff2" crossorigin>
@@ -33,7 +33,7 @@ h3{font-size:clamp(21px,1.4vw,28px);line-height:1.15}
 p{margin:0}
 .wrap{width:var(--w);margin:0 auto}
 .skip{position:absolute;left:-999px}.skip:focus{left:16px;top:8px;z-index:99;background:#fff;padding:8px 12px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 28px;background:var(--or);color:#fff;font:700 1.2rem/1 Saira,"Saira-fb",Arial,sans-serif;letter-spacing:.01em;text-decoration:none;border:0;border-radius:28px;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .15s}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 28px;background:var(--or);color:var(--ink);font:700 1.2rem/1 Saira,"Saira-fb",Arial,sans-serif;letter-spacing:.01em;text-decoration:none;border:0;border-radius:28px;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .15s}
 .btn:hover{background:var(--or2)}
 .btn.bia{background:#fff;color:var(--ink)}.btn.bia:hover{background:#f1f3f4}
 .btn.gr{background:var(--ink)}.btn.gr:hover{background:#000}
@@ -111,7 +111,7 @@ section{padding:clamp(64px,7vw,130px) 0}
 @media (min-width:1700px){.tor{grid-auto-columns:calc((100% - 64px)/4.6)}}
 .strz{display:flex;gap:10px}
 .strz button{width:54px;height:54px;border:2px solid var(--ink);border-radius:50%;background:#fff;color:var(--ink);font:700 22px/1 Saira,Arial,sans-serif;cursor:pointer}
-.strz button:hover:not(:disabled){background:var(--or);border-color:var(--or);color:#fff}
+.strz button:hover:not(:disabled){background:var(--or);border-color:var(--or);color:var(--ink)}
 .strz button:disabled{opacity:.3;cursor:default}
 .karuzela.pelna .strz{display:none}
 .auto{background:#fff;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;user-select:none;box-shadow:0 1px 0 var(--line)}
@@ -120,7 +120,7 @@ section{padding:clamp(64px,7vw,130px) 0}
 .auto a.lb:hover img{transform:scale(1.03)}
 .auto a.lb .ile{position:absolute;right:12px;bottom:12px;background:rgba(22,26,26,.82);color:#fff;font-size:.82rem;font-weight:600;padding:5px 11px;border-radius:14px}
 .auto .tx{padding:18px 20px 22px;flex:1;display:flex;flex-direction:column}
-.auto .kl{display:flex;align-items:center;gap:8px;font:700 .95rem/1 Saira,Arial,sans-serif;color:var(--or2)}
+.auto .kl{display:flex;align-items:center;gap:8px;font:700 .95rem/1 Saira,Arial,sans-serif;color:#b03e00}
 .auto .kl::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--or)}
 .auto h3{margin-top:8px}
 .auto p{margin-top:10px;color:var(--mut);font-size:.93rem;line-height:1.5}
@@ -212,7 +212,7 @@ footer .dol{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:12px 24px;justify-c
 #lb .lb-in{position:absolute;inset:60px 16px 70px;display:flex;align-items:center;justify-content:center}
 #lb img{max-width:100%;max-height:100%;object-fit:contain}
 #lb p{position:absolute;left:16px;right:16px;bottom:22px;text-align:center}
-#lb button{position:absolute;width:52px;height:52px;border:0;border-radius:50%;background:var(--or);color:#fff;font:700 24px/1 Saira,Arial,sans-serif;cursor:pointer}
+#lb button{position:absolute;width:52px;height:52px;border:0;border-radius:50%;background:var(--or);color:var(--ink);font:700 24px/1 Saira,Arial,sans-serif;cursor:pointer}
 .lb-x{top:10px;right:12px}.lb-p{left:12px;top:50%}.lb-n{right:12px;top:50%}
 body.lb-on{overflow:hidden}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
@@ -242,7 +242,7 @@ body.lb-on{overflow:hidden}
 <main>
 <section class="hero" aria-labelledby="h1" style="padding:0">
   <picture>
-    <source media="(max-width:899px)" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w" sizes="250vw">
+    <source media="(max-width:899px)" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w" sizes="160vw">
     <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-1920.webp 1920w" sizes="100vw" width="1920" height="1282" alt="Granatowy Hyundai Tucson z floty wypożyczalni nad jeziorem" fetchpriority="high">
   </picture>
   <div class="wrap">
