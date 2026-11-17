@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Wypożyczalnia samochodów Ełk - auta i busy na doby | wypozyczauto.elk.pl</title>
+<meta name="description" content="Wypożyczalnia samochodów w Ełku: od Citroena C1 po <span style="white-space:nowrap">9-osobowe</span> busy i auta premium. Podstawienie pod dom i na lotniska, auto zastępcze z OC sprawcy, auto do ślubu. Tel. 500 044 663.">
+<meta name="theme-color" content="#fe5e00">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-1024.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w" imagesizes="250vw" media="(max-width:899px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-1920.webp 1920w" imagesizes="100vw" media="(min-width:900px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/saira-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/inter-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:"Saira";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/saira-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Saira";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/saira-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Inter";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/inter-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Inter";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/inter-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Inter-fb";src:local("Arial");size-adjust:107%;ascent-override:90%;descent-override:22%;line-gap-override:0%}
+@font-face{font-family:"Saira-fb";src:local("Arial");size-adjust:100%;ascent-override:95%;descent-override:30%;line-gap-override:0%}
+:root{--or:#fe5e00;--or2:#e65300;--gr:#5c6666;--ink:#171c1c;--mut:#4d5555;--g:#f1f3f4;--line:#d9dede;--dark:#161a1a;--hh:64px;--w:min(calc(100vw - 32px),1760px)}
+@media (min-width:900px){:root{--hh:84px;--w:min(92vw,1760px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Inter,"Inter-fb",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(16px,.2vw + 15px,19px);line-height:1.62;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-family:Saira,"Saira-fb",Arial,sans-serif;font-weight:700;line-height:1.05;letter-spacing:-.01em}
+h2{font-size:clamp(32px,3.2vw,62px)}
+h2::after{content:".";color:var(--or)}
+h3{font-size:clamp(21px,1.4vw,28px);line-height:1.15}
+p{margin:0}
+.wrap{width:var(--w);margin:0 auto}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:8px;z-index:99;background:#fff;padding:8px 12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 28px;background:var(--or);color:#fff;font:700 1.2rem/1 Saira,"Saira-fb",Arial,sans-serif;letter-spacing:.01em;text-decoration:none;border:0;border-radius:28px;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .15s}
+.btn:hover{background:var(--or2)}
+.btn.bia{background:#fff;color:var(--ink)}.btn.bia:hover{background:#f1f3f4}
+.btn.gr{background:var(--ink)}.btn.gr:hover{background:#000}
+.btn:focus-visible,.menu a:focus-visible,.karuzela button:focus-visible,a.lb:focus-visible{outline:3px solid #0b63ce;outline-offset:3px}
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;transition:box-shadow .2s}
+.top.sc{box-shadow:0 1px 0 var(--line),0 8px 22px rgba(0,0,0,.07)}
+.top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.logo{display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--gr);font:700 clamp(19px,1.5vw,26px)/1 Saira,"Saira-fb",Arial,sans-serif;letter-spacing:-.01em;white-space:nowrap}
+.logo svg{width:clamp(34px,2.4vw,42px);height:auto;flex:none}
+.logo i{font-style:normal;color:var(--or)}
+.menu{display:flex;align-items:center;gap:clamp(14px,1.5vw,32px)}
+.menu a{text-decoration:none;font-weight:600;font-size:.98rem;position:relative;padding:6px 0;color:var(--ink)}
+.menu a:not(.btn).on::after,.menu a:not(.btn):not(.tel):hover::after{content:"";position:absolute;left:50%;bottom:-8px;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:var(--or)}
+.menu .tel{white-space:nowrap;font-weight:700}
+.menu .btn{min-height:48px;padding:0 22px;font-size:1.2rem}
+.burger{display:none}
+@media (max-width:1320px){.menu .tel{display:none}}
+@media (max-width:1100px){
+  .menu{position:fixed;inset:var(--hh) 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:6px 16px 22px;border-top:1px solid var(--line);box-shadow:0 18px 30px rgba(0,0,0,.14);transform:translateY(-8px);opacity:0;visibility:hidden;transition:.2s}
+  .top.open .menu{transform:none;opacity:1;visibility:visible}
+  .menu a{padding:15px 0 15px 24px;border-bottom:1px solid var(--line);font-size:1.08rem}
+  .menu a:not(.btn)::before{content:"";position:absolute;left:4px;top:50%;width:9px;height:9px;margin-top:-4.5px;border-radius:50%;border:2px solid var(--line)}
+  .menu a.on::before{background:var(--or);border-color:var(--or)}
+  .menu a.on::after,.menu a:hover::after{display:none}
+  .menu .tel{display:block}
+  .menu .btn{margin-top:16px;min-height:54px;border-bottom:0;padding:0 22px}
+  .burger{display:flex;flex-direction:column;justify-content:center;gap:5px;width:48px;height:48px;padding:0 12px;background:var(--or);border:0;border-radius:50%;cursor:pointer}
+  .burger span{display:block;height:2.5px;background:#fff;border-radius:2px;transition:.2s}
+  .top.open .burger span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+  .top.open .burger span:nth-child(2){opacity:0}
+  .top.open .burger span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+}
+/* hero */
+.hero{position:relative;color:#fff;background:var(--dark);display:flex;flex-direction:column;min-height:calc(100svh - var(--hh));isolation:isolate}
+.hero picture img{width:100%;height:100%;object-fit:cover}
+.hero .wrap{position:relative}
+.hero h1{font-size:clamp(36px,4.4vw,92px);max-width:13ch;text-wrap:balance}
+.hero .lead{margin-top:16px;max-width:46ch;font-size:clamp(17px,1.05vw,21px);color:#e9eded}
+.hero .akcje{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.kropki{display:flex;align-items:center;gap:10px;margin-top:22px;font-size:.92rem;color:#d3d9d9;flex-wrap:wrap}
+.kropki b{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--or)}
+@media (max-width:899px){
+  .hero picture{display:block;height:max(210px,calc(100svh - var(--hh) - 372px));position:relative}
+  .hero picture img{object-position:75% 62%}
+  .hero picture::after{content:"";position:absolute;inset:auto 0 0 0;height:45%;background:linear-gradient(0deg,var(--dark),rgba(22,26,26,0))}
+  .hero .wrap{flex:1;display:flex;flex-direction:column;justify-content:flex-end;padding:0 0 26px;margin-top:-30px}
+  .hero .akcje{flex-wrap:nowrap;gap:10px}
+  .hero .akcje .btn{flex:1 1 auto;padding:0 14px;font-size:1.06rem;min-height:54px}
+  .hero .kropki{display:none}
+  .hero h1{font-size:clamp(34px,9.4vw,44px)}
+}
+@media (min-width:900px){
+  .hero{min-height:min(calc(100svh - var(--hh)),1000px);justify-content:center}
+  .hero picture{position:absolute;inset:0;z-index:-2}
+  .hero picture img{object-position:50% 58%}
+  .hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(14,17,17,.88) 0%,rgba(14,17,17,.7) 30%,rgba(14,17,17,.15) 58%,rgba(14,17,17,0) 75%)}
+  .hero .wrap{padding:70px 0 90px}
+}
+/* sekcje */
+section{padding:clamp(64px,7vw,130px) 0}
+.szary{background:var(--g)}
+.ciem{background:var(--dark);color:#fff}
+.lead2{max-width:62ch;color:var(--mut);margin-top:18px;font-size:clamp(17px,1vw,20px)}
+.ciem .lead2{color:#cfd5d5}
+.glowa{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:clamp(30px,3vw,54px)}
+/* flota */
+.karuzela{position:relative}
+.tor{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(260px,84%);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:6px;cursor:grab}
+.tor::-webkit-scrollbar{display:none}
+.tor.ciag{cursor:grabbing;scroll-snap-type:none}
+.tor>*{scroll-snap-align:start}
+@media (min-width:700px){.tor{grid-auto-columns:calc((100% - 32px)/2.4)}}
+@media (min-width:1100px){.tor{grid-auto-columns:calc((100% - 48px)/3.5)}}
+@media (min-width:1700px){.tor{grid-auto-columns:calc((100% - 64px)/4.6)}}
+.strz{display:flex;gap:10px}
+.strz button{width:54px;height:54px;border:2px solid var(--ink);border-radius:50%;background:#fff;color:var(--ink);font:700 22px/1 Saira,Arial,sans-serif;cursor:pointer}
+.strz button:hover:not(:disabled){background:var(--or);border-color:var(--or);color:#fff}
+.strz button:disabled{opacity:.3;cursor:default}
+.karuzela.pelna .strz{display:none}
+.auto{background:#fff;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;user-select:none;box-shadow:0 1px 0 var(--line)}
+.auto a.lb{display:block;position:relative;aspect-ratio:3/2;background:#e8ecec;overflow:hidden}
+.auto a.lb img{width:100%;height:100%;object-fit:cover;pointer-events:none;transition:transform .5s}
+.auto a.lb:hover img{transform:scale(1.03)}
+.auto a.lb .ile{position:absolute;right:12px;bottom:12px;background:rgba(22,26,26,.82);color:#fff;font-size:.82rem;font-weight:600;padding:5px 11px;border-radius:14px}
+.auto .tx{padding:18px 20px 22px;flex:1;display:flex;flex-direction:column}
+.auto .kl{display:flex;align-items:center;gap:8px;font:700 .95rem/1 Saira,Arial,sans-serif;color:var(--or2)}
+.auto .kl::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--or)}
+.auto h3{margin-top:8px}
+.auto p{margin-top:10px;color:var(--mut);font-size:.93rem;line-height:1.5}
+.auto a.lb.ukryte,.ukryte{display:none}
+/* trasa: odbior i zwrot */
+.trasa{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.trasa li{position:relative;padding:0 0 26px 40px}
+.trasa li::before{content:"";position:absolute;left:0;top:3px;width:20px;height:20px;border-radius:50%;background:#fff;border:5px solid var(--or);box-sizing:border-box;z-index:1}
+.trasa li::after{content:"";position:absolute;left:8px;top:22px;bottom:-2px;border-left:4px dotted var(--gr)}
+.trasa li:last-child::after{display:none}
+.trasa li:first-child::before{background:var(--or)}
+.trasa b{display:block;font:700 clamp(19px,1.25vw,24px)/1.2 Saira,"Saira-fb",Arial,sans-serif}
+.trasa span{display:block;color:var(--mut);font-size:.95rem;margin-top:4px}
+.trasa em{display:inline-block;margin-top:8px;font-style:normal;font-weight:700;background:var(--ink);color:#fff;padding:3px 12px;border-radius:14px;font-size:.92rem}
+@media (min-width:1000px){
+  .trasa{grid-template-columns:repeat(6,1fr);gap:0 18px}
+  .trasa li{padding:46px 0 0 0}
+  .trasa li::before{top:0;left:0}
+  .trasa li::after{left:22px;right:-18px;top:8px;bottom:auto;border-left:0;border-top:4px dotted var(--gr)}
+}
+.trasa-uw{margin-top:28px;color:var(--mut);font-size:.95rem;max-width:70ch}
+/* oc sprawcy */
+.oc{display:grid;gap:clamp(30px,4vw,80px);align-items:center}
+@media (min-width:1000px){.oc{grid-template-columns:minmax(0,7fr) minmax(0,5fr)}}
+.oc ul{list-style:none;margin:24px 0 0;padding:0}
+.oc li{position:relative;padding:12px 0 12px 28px;border-bottom:1px solid #2f3636}
+.oc li::before{content:"";position:absolute;left:2px;top:1.15em;width:10px;height:10px;border-radius:50%;background:var(--or)}
+.oc .tel-oc{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;margin-top:30px}
+.oc .tel-oc a.num{font:700 clamp(26px,2.2vw,40px)/1 Saira,"Saira-fb",Arial,sans-serif;text-decoration:none;color:#fff}
+.oc figure{margin:0}
+.oc figure a{display:block;border-radius:18px;overflow:hidden}
+.oc figure img{width:100%;aspect-ratio:6/5;object-fit:cover}
+/* slub */
+.slub{display:grid;gap:clamp(30px,4vw,80px);align-items:center}
+@media (min-width:1000px){.slub{grid-template-columns:minmax(0,5fr) minmax(0,6fr)}}
+.slub figure{margin:0}
+.slub figure a{display:block;border-radius:18px;overflow:hidden}
+.slub figure img{width:100%;aspect-ratio:6/5;object-fit:cover}
+.slub .txt p+p{margin-top:16px}
+.slub .txt p{color:#333a3a}
+.plat{margin-top:clamp(50px,5vw,90px);display:flex;flex-wrap:wrap;gap:16px 40px;align-items:center;justify-content:space-between;padding:26px clamp(20px,2.4vw,40px);background:var(--g);border-radius:18px}
+.plat p{font-size:clamp(17px,1.1vw,21px);max-width:60ch}
+.plat strong{font-family:Saira,Arial,sans-serif}
+/* kontakt */
+.kont{display:grid;gap:clamp(30px,4vw,80px);align-items:start}
+@media (min-width:1000px){.kont{grid-template-columns:minmax(0,7fr) minmax(0,5fr)}}
+form.pokaz{display:grid;gap:14px;background:#fff;padding:clamp(20px,2.4vw,40px);border-radius:18px}
+@media (min-width:700px){form.pokaz{grid-template-columns:1fr 1fr}.pole.cale,form.pokaz .btn,form.pokaz .info,form.pokaz .msg{grid-column:1/-1}}
+.pole label{display:block;font-weight:600;font-size:.92rem;margin-bottom:6px}
+.pole input,.pole textarea,.pole select{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid #b5bcbc;border-radius:12px;background:#fff;color:var(--ink)}
+.pole textarea{min-height:120px;resize:vertical}
+.pole input:focus,.pole textarea:focus,.pole select:focus{outline:3px solid var(--or);outline-offset:0;border-color:var(--ink)}
+form.pokaz .btn{justify-self:start}
+form.pokaz .info{font-size:.85rem;color:var(--mut)}
+.msg{padding:14px 16px;background:var(--ink);color:#fff;border-radius:12px}
+.dane h3{margin-bottom:6px}
+.dane .firma{color:var(--mut);margin-bottom:12px}
+.dane a{font-weight:700;text-decoration:none}
+.dane .tel-duzy{display:block;font:700 clamp(28px,2.4vw,44px)/1.1 Saira,"Saira-fb",Arial,sans-serif;margin:10px 0 4px}
+.dane .blok{padding:18px 0;border-top:1px solid var(--line)}
+.dane .blok p{margin-bottom:4px}
+.dane small{display:block;color:var(--mut);font-size:.88rem}
+/* stopka */
+footer{background:var(--dark);color:#c3cbcb;padding:44px 0 30px;font-size:.95rem}
+footer .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px 30px}
+footer .wrap>div:first-child{grid-column:1/-1}
+@media (min-width:900px){footer .wrap{grid-template-columns:2fr 1fr 1fr 1fr}footer .wrap>div:first-child{grid-column:auto}}
+footer b{color:#fff;display:block;margin-bottom:8px}
+footer a{text-decoration:none}
+footer a:hover{color:#fff}
+footer .logo{color:#fff}
+footer .dol{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;align-items:center;border-top:1px solid #2c3333;padding-top:20px;font-size:.88rem}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+
+/* lightbox */
+#lb{border:0;padding:0;max-width:none;max-height:none;width:100vw;height:100dvh;background:rgba(12,14,14,.95);color:#fff}
+#lb::backdrop{background:rgba(0,0,0,.6)}
+#lb .lb-in{position:absolute;inset:60px 16px 70px;display:flex;align-items:center;justify-content:center}
+#lb img{max-width:100%;max-height:100%;object-fit:contain}
+#lb p{position:absolute;left:16px;right:16px;bottom:22px;text-align:center}
+#lb button{position:absolute;width:52px;height:52px;border:0;border-radius:50%;background:var(--or);color:#fff;font:700 24px/1 Saira,Arial,sans-serif;cursor:pointer}
+.lb-x{top:10px;right:12px}.lb-p{left:12px;top:50%}.lb-n{right:12px;top:50%}
+body.lb-on{overflow:hidden}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#flota">Przejdź do treści</a>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="wypozyczauto.elk.pl, strona główna">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="24" fill="#fe5e00"/><path d="M15.5 16.5c.6-1.6 1.6-2.5 3.3-2.5h10.4c1.7 0 2.7.9 3.3 2.5l1.9 5h1.4c.7 0 1.2.5 1.2 1.1v.6c0 .5-.4.9-.9 1l-.9.1c.6.7.9 1.6.9 2.6v5.6c0 .8-.6 1.4-1.4 1.4h-2.3c-.8 0-1.4-.6-1.4-1.4V31H17v1.5c0 .8-.6 1.4-1.4 1.4h-2.3c-.8 0-1.4-.6-1.4-1.4v-5.6c0-1 .3-1.9.9-2.6l-.9-.1c-.5-.1-.9-.5-.9-1v-.6c0-.6.5-1.1 1.2-1.1h1.4zm2.1 5h12.8l-1.3-3.6c-.2-.6-.7-.9-1.3-.9h-7.6c-.6 0-1.1.3-1.3.9zM15.4 27c0 .9.7 1.6 1.6 1.6h1.3c.9 0 1.6-.7 1.6-1.6s-.7-1.6-1.6-1.6H17c-.9 0-1.6.7-1.6 1.6zm12.7 0c0 .9.7 1.6 1.6 1.6H31c.9 0 1.6-.7 1.6-1.6s-.7-1.6-1.6-1.6h-1.3c-.9 0-1.6.7-1.6 1.6z" fill="#fff"/></svg>
+      <span>wypozycz<i>auto</i>.elk<i>.</i>pl</span>
+    </a>
+    <nav class="menu" aria-label="Menu główne">
+      <a href="#flota">Flota</a>
+      <a href="#odbior">Odbiór i zwrot</a>
+      <a href="#oc-sprawcy">Auto z OC sprawcy</a>
+      <a href="#do-slubu">Auto do ślubu</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="tel" href="tel:+48500044663">500 044 663</a>
+      <a class="btn" href="#kontakt">Zarezerwuj auto</a>
+    </nav>
+    <button class="burger" type="button" aria-label="Otwórz menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1" style="padding:0">
+  <picture>
+    <source media="(max-width:899px)" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w" sizes="250vw">
+    <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-1920.webp 1920w" sizes="100vw" width="1920" height="1282" alt="Granatowy Hyundai Tucson z floty wypożyczalni nad jeziorem" fetchpriority="high">
+  </picture>
+  <div class="wrap">
+    <h1 id="h1">Wypożyczalnia samochodów w Ełku</h1>
+    <p class="lead">Od miejskiego Citroena C1 po <span style="white-space:nowrap">9-osobowe</span> busy i auta premium. Odbierz samochód w biurze przy Dąbrowskiego albo podstawimy go pod Twój adres lub na lotnisko.</p>
+    <div class="akcje">
+      <a class="btn" href="#kontakt">Zarezerwuj auto</a>
+      <a class="btn bia" href="tel:+48500044663">500 044 663</a>
+    </div>
+    <p class="kropki"><b></b>Rezerwacja online<b></b>Płatność PayU i BLIK<b></b>Auto zastępcze z OC sprawcy</p>
+  </div>
+</section>
+
+<section id="flota" class="szary">
+  <div class="wrap karuzela">
+    <div class="glowa">
+      <div>
+        <h2>Flota na każdą trasę</h2>
+        <p class="lead2">Siedem klas samochodów: miejskie, kompaktowe, kombi, SUV-y z napędem 4x4, limuzyny premium i busy dla 8-9 osób. Kliknij zdjęcie, żeby zobaczyć więcej aut z danej klasy.</p>
+      </div>
+      <div class="strz"><button class="prev" type="button" aria-label="Poprzednie klasy">&#8592;</button><button class="next" type="button" aria-label="Następne klasy">&#8594;</button></div>
+    </div>
+    <div class="tor">
+      <article class="auto">
+        <a class="lb" data-g="a" data-alt="Skoda Citigo, klasa A" href="img/a-citigo.webp"><img src="img/t-a-citigo.webp" width="640" height="426" alt="Czerwona Skoda Citigo, klasa A" loading="lazy" decoding="async"></a>
+        <div class="tx"><span class="kl">Klasa A</span><h3>Miejskie</h3><p>Citroen C1, Skoda Citigo. Małe, oszczędne auta na miasto, z klimatyzacją i isofix.</p></div>
+      </article>
+      <article class="auto">
+        <a class="lb" data-g="b" data-alt="Citroen C3, klasa B" href="img/b-c3-1280.webp"><img src="img/t-b-c3.webp" width="640" height="480" alt="Czerwony Citroen C3, klasa B" loading="lazy" decoding="async"><span class="ile">3 zdjęcia</span></a>
+        <a class="lb ukryte" data-g="b" data-alt="Citroen C3 Black, klasa B" href="img/b-c3b.webp" tabindex="-1">Citroen C3 Black</a>
+        <a class="lb ukryte" data-g="b" data-alt="Hyundai i20 Automatic, klasa B" href="img/b-i20.webp" tabindex="-1">Hyundai i20</a>
+        <div class="tx"><span class="kl">Klasa B</span><h3>Małe rodzinne</h3><p>Citroen C3 (także automat), Hyundai i20 Automatic. Pięć miejsc i czujniki parkowania.</p></div>
+      </article>
+      <article class="auto">
+        <a class="lb" data-g="c" data-alt="Toyota Corolla 1,8 Hybrid, klasa C" href="img/c-corolla-992.webp"><img src="img/t-c-corolla.webp" width="640" height="406" alt="Biała Toyota Corolla Hybrid, klasa C" loading="lazy" decoding="async"><span class="ile">5 zdjęć</span></a>
+        <a class="lb ukryte" data-g="c" data-alt="VW T-Cross, klasa C" href="img/c-tcross.webp" tabindex="-1">VW T-Cross</a>
+        <a class="lb ukryte" data-g="c" data-alt="Ford Focus Automat, klasa C" href="img/c-focus.webp" tabindex="-1">Ford Focus</a>
+        <a class="lb ukryte" data-g="c" data-alt="Ford Focus Combi 1.5T, klasa C" href="img/c-focuscombi.webp" tabindex="-1">Ford Focus Combi</a>
+        <a class="lb ukryte" data-g="c" data-alt="Honda Civic Sport, klasa C" href="img/c-civic.webp" tabindex="-1">Honda Civic</a>
+        <div class="tx"><span class="kl">Klasa C</span><h3>Kompaktowe i kombi</h3><p>Toyota Corolla Hybrid, Ford Focus i Focus Combi, Honda Civic, Hyundai i30, Kia Ceed, VW T-Cross i inne.</p></div>
+      </article>
+      <article class="auto">
+        <a class="lb" data-g="d" data-alt="Audi A5 cabrio quattro, klasa D" href="img/d-a5-1080.webp"><img src="img/t-d-a5.webp" width="640" height="480" alt="Audi A5 cabrio, klasa D" loading="lazy" decoding="async"></a>
+        <div class="tx"><span class="kl">Klasa D</span><h3>Średnie</h3><p>Audi A5 cabrio quattro, Kia Proceed GT Line, Skoda Octavia z automatyczną skrzynią.</p></div>
+      </article>
+      <article class="auto">
+        <a class="lb" data-g="s" data-alt="Hyundai Tucson 1,6 T-GDi, klasa SUV" href="img/s-tucson-1500.webp"><img src="img/t-s-tucson.webp" width="640" height="427" alt="Granatowy Hyundai Tucson, klasa SUV" loading="lazy" decoding="async"><span class="ile">4 zdjęcia</span></a>
+        <a class="lb ukryte" data-g="s" data-alt="Ford Kuga 1,5T, klasa SUV" href="img/s-kuga.webp" tabindex="-1">Ford Kuga</a>
+        <a class="lb ukryte" data-g="s" data-alt="Jeep Cherokee 4x4, klasa SUV" href="img/s-cherokee.webp" tabindex="-1">Jeep Cherokee</a>
+        <a class="lb ukryte" data-g="s" data-alt="Toyota Hilux 2,8 D-4D Invincible, klasa SUV" href="img/s-hilux.webp" tabindex="-1">Toyota Hilux</a>
+        <div class="tx"><span class="kl">Klasa SUV</span><h3>SUV-y i terenowe</h3><p>Hyundai Tucson i Santa Fe Hybrid, Ford Kuga, Dacia Duster, Jeep Cherokee 4x4, Toyota Hilux Invincible.</p></div>
+      </article>
+      <article class="auto">
+        <a class="lb" data-g="p" data-alt="BMW X6M Competition, klasa Premium" href="img/p-x6m.webp"><img src="img/p-x6m.webp" width="640" height="480" alt="Granatowe BMW X6M Competition, klasa Premium" loading="lazy" decoding="async"><span class="ile">6 zdjęć</span></a>
+        <a class="lb ukryte" data-g="p" data-alt="Mercedes S400d 4matic, klasa Premium" href="img/p-s400-1591.webp" tabindex="-1">Mercedes S400d</a>
+        <a class="lb ukryte" data-g="p" data-alt="Audi Q5 35 TDI, klasa Premium" href="img/p-q5.webp" tabindex="-1">Audi Q5</a>
+        <a class="lb ukryte" data-g="p" data-alt="Kia Stinger, klasa Premium" href="img/p-stinger.webp" tabindex="-1">Kia Stinger</a>
+        <a class="lb ukryte" data-g="p" data-alt="Volvo XC60 T5, klasa Premium" href="img/p-xc60.webp" tabindex="-1">Volvo XC60</a>
+        <a class="lb ukryte" data-g="p" data-alt="Skoda Superb Combi L&amp;K, klasa Premium" href="img/p-superb.webp" tabindex="-1">Skoda Superb</a>
+        <div class="tx"><span class="kl">Klasa Premium</span><h3>Premium</h3><p>Mercedes S400d i C180, BMW X6M, Audi A6 i Q5, Volvo XC60 i XC90 Hybrid, Kia Stinger, Skoda Superb L&amp;K.</p></div>
+      </article>
+      <article class="auto">
+        <a class="lb" data-g="v" data-alt="Toyota Proace 8-osobowa Automat, klasa Vany" href="img/v-proace-1440.webp"><img src="img/t-v-proace.webp" width="640" height="363" alt="Toyota Proace 8-osobowa, klasa Vany" loading="lazy" decoding="async"><span class="ile">4 zdjęcia</span></a>
+        <a class="lb ukryte" data-g="v" data-alt="Toyota Proace 9-osobowa Long, klasa Vany" href="img/v-proace9.webp" tabindex="-1">Toyota Proace 9-os.</a>
+        <a class="lb ukryte" data-g="v" data-alt="Renault Master dostawczy, klasa Vany" href="img/v-master.webp" tabindex="-1">Renault Master</a>
+        <a class="lb ukryte" data-g="v" data-alt="Dodge Grand Caravan, klasa Vany" href="img/v-caravan.webp" tabindex="-1">Dodge Grand Caravan</a>
+        <div class="tx"><span class="kl">Klasa Vany</span><h3>Busy i dostawcze</h3><p>Toyota Proace 8- i 9-osobowa, Renault Trafic 9-osobowy, Dodge Grand Caravan, Renault Master dostawczy.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="odbior">
+  <div class="wrap">
+    <div class="glowa"><div><h2>Odbiór i zwrot tam, gdzie Ci wygodnie</h2><p class="lead2">Auto odbierzesz w biurze albo podstawimy je pod wskazany adres. Możesz też oddać samochód w innym miejscu niż odbiór.</p></div></div>
+    <ol class="trasa">
+      <li><b>Biuro w Ełku</b><span>ul. Dąbrowskiego 10/1U</span></li>
+      <li><b>Ełk, cały teren miasta</b><span>pod dom, hotel albo do pracy</span></li>
+      <li><b>Twój adres</b><span>siedziba klienta poza Ełkiem</span><em>+2 zł/km</em></li>
+      <li><b>Lotnisko Olsztyn-Mazury</b><span>Szymany</span><em>+200 zł</em></li>
+      <li><b>Warszawa Okęcie i Modlin</b><span>lotniska w Warszawie</span><em>+400 zł</em></li>
+      <li><b>Gdańsk, Wilno, Kowno</b><span>lotniska</span><em>+500 zł</em></li>
+    </ol>
+    <p class="trasa-uw">Dopłaty według obecnego cennika podstawienia. Miejsce odbioru i zwrotu wybierasz przy rezerwacji online.</p>
+  </div>
+</section>
+
+<section id="oc-sprawcy" class="ciem">
+  <div class="wrap oc">
+    <div>
+      <h2>Auto zastępcze z OC sprawcy</h2>
+      <p class="lead2">Miałeś kolizję nie ze swojej winy? Dostaniesz bezpłatnie auto tej samej klasy co uszkodzone, bez kaucji i bez limitu kilometrów. Formalności z ubezpieczycielem załatwimy za Ciebie.</p>
+      <ul>
+        <li>Nazwa zakładu ubezpieczeń sprawcy i numer szkody</li>
+        <li>Skan oświadczenia o kolizji albo, gdy była policja, numer rejestracyjny i numer polisy sprawcy</li>
+        <li>Skan dowodu rejestracyjnego uszkodzonego auta lub potwierdzenia jego zatrzymania</li>
+      </ul>
+      <div class="tel-oc"><a class="num" href="tel:+48881220022">881 22 00 22</a><a class="btn" href="tel:+48881220022">Zadzwoń w sprawie szkody</a></div>
+    </div>
+    <figure><a class="lb" data-g="oc" data-alt="Auto zastępcze z OC sprawcy" href="img/oc-993.webp"><img src="img/oc-700.webp" srcset="img/oc-700.webp 700w, img/oc-993.webp 993w" sizes="(min-width:1000px) 38vw, 100vw" width="993" height="830" alt="Przekazanie dokumentów i kluczyków auta zastępczego" loading="lazy" decoding="async"></a></figure>
+  </div>
+</section>
+
+<section id="do-slubu">
+  <div class="wrap">
+    <div class="slub">
+      <figure><a class="lb" data-g="slub" data-alt="Samochód do ślubu z kierowcą" href="img/slub-994.webp"><img src="img/slub-700.webp" srcset="img/slub-700.webp 700w, img/slub-994.webp 994w" sizes="(min-width:1000px) 42vw, 100vw" width="994" height="829" alt="Panna młoda w samochodzie do ślubu" loading="lazy" decoding="async"></a></figure>
+      <div class="txt">
+        <h2>Auto do ślubu z kierowcą</h2>
+        <p class="lead2" style="margin-bottom:18px">Elegancki samochód na najważniejszy dzień, razem z kierowcą.</p>
+        <p>Kierowca zawsze ubrany stosownie do okazji, w garniturze i pod krawatem. Zadba o punktualny dojazd do kościoła, urzędu i na salę, a Wy możecie skupić się na sobie i gościach.</p>
+        <p>Zapytaj o wolny termin i auto z klasy Premium.</p>
+        <div style="margin-top:26px"><a class="btn gr" href="#kontakt">Zapytaj o termin ślubu</a></div>
+      </div>
+    </div>
+    <div class="plat">
+      <p><strong>Rezerwacja w kilka minut.</strong> Wybierasz miejsce i godzinę odbioru, auto i płacisz online przez PayU albo BLIK.</p>
+      <a class="btn" href="#kontakt">Zarezerwuj samochód</a>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt" class="szary">
+  <div class="wrap">
+    <div class="glowa"><div><h2>Zapytaj o auto</h2><p class="lead2">Podaj termin i klasę samochodu, a potwierdzimy dostępność i cenę wynajmu.</p></div></div>
+    <div class="kont">
+      <form class="pokaz" novalidate>
+        <div class="pole"><label for="f-im">Imię i nazwisko</label><input id="f-im" name="imie" autocomplete="name" required></div>
+        <div class="pole"><label for="f-tel">Telefon</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" required></div>
+        <div class="pole"><label for="f-od">Odbiór</label><input id="f-od" name="od" type="date"></div>
+        <div class="pole"><label for="f-do">Zwrot</label><input id="f-do" name="do" type="date"></div>
+        <div class="pole cale"><label for="f-kl">Klasa auta</label><select id="f-kl" name="klasa"><option>Klasa A - miejskie</option><option>Klasa B - małe rodzinne</option><option selected>Klasa C - kompaktowe i kombi</option><option>Klasa D - średnie</option><option>SUV i terenowe</option><option>Premium</option><option>Busy i dostawcze</option><option>Auto do ślubu</option></select></div>
+        <div class="pole cale"><label for="f-wi">Uwagi</label><textarea id="f-wi" name="wiadomosc" placeholder="np. podstawienie na lotnisko w Modlinie, fotelik dla dziecka"></textarea></div>
+        <button class="btn" type="submit">Wyślij zapytanie</button>
+        <p class="msg" hidden tabindex="-1">To jest podgląd strony - na docelowej stronie formularz wyśle zapytanie do wypożyczalni.</p>
+      </form>
+      <div class="dane">
+        <h3>wypozyczauto.elk.pl</h3>
+        <p class="firma">NEBRASKA Multiservice Mariusz Boguszewski</p>
+        <a class="tel-duzy" href="tel:+48500044663">500 044 663</a>
+        <small>rezerwacje i pytania o auta</small>
+        <div class="blok" style="margin-top:14px">
+          <p><a href="tel:+48881220022">881 22 00 22</a></p>
+          <small>auto zastępcze z OC sprawcy</small>
+        </div>
+        <div class="blok">
+          <p><a href="mailto:biuro@wypozyczauto.elk.pl">biuro@wypozyczauto.elk.pl</a></p>
+          <p>ul. Dąbrowskiego 10/1U, 19-300 Ełk</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><a class="logo" href="#" aria-label="wypozyczauto.elk.pl, do góry strony"><svg viewBox="0 0 48 48" aria-hidden="true" width="38" height="38"><circle cx="24" cy="24" r="24" fill="#fe5e00"/><circle cx="24" cy="24" r="8" fill="#fff"/></svg><span>wypozycz<i>auto</i>.elk<i>.</i>pl</span></a></div>
+    <div><b>Wynajem</b><a href="#flota">Flota</a><br><a href="#odbior">Odbiór i zwrot</a><br><a href="#do-slubu">Auto do ślubu</a></div>
+    <div><b>Szkoda</b><a href="#oc-sprawcy">Auto z OC sprawcy</a><br><a href="tel:+48881220022">881 22 00 22</a></div>
+    <div><b>Kontakt</b><a href="tel:+48500044663">500 044 663</a><br><a href="mailto:biuro@wypozyczauto.elk.pl">biuro@wypozyczauto.elk.pl</a><br>ul. Dąbrowskiego 10/1U, Ełk</div>
+    <div class="dol"><span>© <span class="rok">2026</span> NEBRASKA Multiservice Mariusz Boguszewski</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=wypozyczauto.elk.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+</div>
+  </div>
+</footer>
+
+<dialog id="lb" aria-label="Podgląd zdjęcia">
+  <div class="lb-in"><img alt=""></div>
+  <p></p>
+  <button class="lb-x" type="button" aria-label="Zamknij">&#215;</button>
+  <button class="lb-p" type="button" aria-label="Poprzednie zdjęcie">&#8592;</button>
+  <button class="lb-n" type="button" aria-label="Następne zdjęcie">&#8594;</button>
+</dialog>
+<script src="app.js" defer></script>
+</body>
+</html>
